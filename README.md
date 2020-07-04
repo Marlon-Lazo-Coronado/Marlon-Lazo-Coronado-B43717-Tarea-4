@@ -30,7 +30,7 @@ Generando la señal que transmitida:https://user-images.githubusercontent.com/65
 Punto 2.  Calcular la potencia promedio de la señal modulada generada.
 
 Este punto es sencillo, basta con seguir las formaluas explicadas en el Py.8 por lo que se genera el siguiente fracmento de código:
- #Potencia instantanea
+    #Potencia instantanea
     dW=señal**2
     #Potencia promedio
     W=integrate.trapz(dW,ts)/((len(datos)+1)*T)
@@ -76,7 +76,7 @@ Para esta parte se realizo un bucle en el que se genera un vectro con los sigmas
  Por lo que se obtiene una serie de graficas con la señal recibida despues de pasar por el canal ruidoso, a continuacion se presenta la grafica en la que se aprecia la mayor cantidad de ruido. https://user-images.githubusercontent.com/65795065/86504697-10df8d00-bd79-11ea-91b5-67221a3ef799.png
 
 Para encontrar una relacion de la potencia del ruido sigma, ha hecho el procedimiento matematico explicado en el py.8.
-'''
+    '''
     SNR(dB)=Relacion señal a ruido
     SNR=10Log10(W/Wr)
     W/(10^(SNR/10))=Wr......... sigma=[W/(10^(SNR/10))]^(1/2)
