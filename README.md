@@ -107,7 +107,9 @@ Para graficar  la densidad espectral de potencia de la señal se utilizo el meto
     plt.show()
 
 Generando como resultado las graficas.
+
 https://user-images.githubusercontent.com/65795065/86504841-b6473080-bd7a-11ea-9b5a-577b39ddc713.png
+
 https://user-images.githubusercontent.com/65795065/86504855-d4ad2c00-bd7a-11ea-970a-6e76189c0349.png
 
 
