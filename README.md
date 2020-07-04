@@ -115,7 +115,7 @@ Punto 5. Demodular y decodificar la señal y hacer un conteo de la tasa de error
 
 Esta parte tambien se hizo utilizando el ejemplo dado por el profesor y añadiendo un ciclo for para calcular de manera iteratiba las tasas de error de bits y generar un vectos que permita graficar lo solicitado en elpunto 6.
 
-for n in Vector_sigma: #Vector_sigma es el vector con diferentes sigmas segun los SNR
+    for n in Vector_sigma: #Vector_sigma es el vector con diferentes sigmas segun los SNR
     
         sigma_t=n
         #print(sigma_t)
