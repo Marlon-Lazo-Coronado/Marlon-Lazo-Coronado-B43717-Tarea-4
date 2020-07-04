@@ -146,7 +146,7 @@ Punto 6. Graficar BER versus SNR.
 
 Aqui solamente se grafican el vector Vector_SNR generado en el punto 5 contra el vector Vector_SNR generado en el punto 3.
 
-plt.plot(Vector_SNR,Vector_Ber,'ro') #Graficamos Vector_SNR vs Vector_Ber.
+    plt.plot(Vector_SNR,Vector_Ber,'ro') #Graficamos Vector_SNR vs Vector_Ber.
     plt.xlabel('Relacio Señal a Ruido SNR(dB)')
     plt.ylabel('Tasa de Error de bits BER')
     plt.title('SNR vs BER')
